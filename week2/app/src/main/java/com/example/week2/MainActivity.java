@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        // to object
         Toolbar toolbar = findViewById(R.id.toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         amountPicker = findViewById(R.id.amountPicker);
         amountText = findViewById(R.id.paymentAmount);
         amountTotal = findViewById(R.id.totalSoFar);
-        //set value NumberPick
+        //set up to NumberPick
         amountPicker.setMinValue(0);
         amountPicker.setMaxValue(1000);
         progressBar.setMax(10000);
@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
                         donatedAmount = Integer.parseInt(text);
                 }
 
-                if (TotalDonate <= 10000)
+                if (TotalDonate < 10000)
                 {
                     TotalDonate  = TotalDonate + donatedAmount;
-                    progressBar.setProgress(TotalDonate);
+//                    progressBar.setProgress(TotalDonate);
                     amountTotal.setText("$" + TotalDonate);
                 }
                 else
