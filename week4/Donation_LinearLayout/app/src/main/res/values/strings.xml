@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Donation_LinearLayout</string>
+    <string name="direct">Direct</string>
+    <string name="paypal">Paypal</string>
+    <string name="amount">Amount</string>
+    <string name="total">Total so Far</string>
+    <string name="totalSoFar">$ Total</string>
+</resources>
