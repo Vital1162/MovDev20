@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <TableLayout
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="Enter your Name in Table"
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:hint="Enter your phone Number"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 x Cheese"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Square"
+                android:checked="false"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Round"
+                android:checked="false"/>
+
+        </RadioGroup>
+        <TableLayout>
+            <TableRow>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pepperoni"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mushrooms"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Veggies"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:id="@+id/orderTitle"
+            android:text="Your ordering"/>
+
+        <TextView
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDEDED"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:maxLines="40"
+            android:minLines="15"
+            app:layout_constraintTop_toBottomOf="@id/orderTitle"
+            tools:layout_editor_absoluteX="16dp" />
+        <TableRow>
+            <Button
+                android:id="@+id/exit"
+                android:text="Exit" />
+            <Button
+                android:id="@+id/sms"
+                android:text="SMS-PLACE YOU ORDER"
+                android:layout_marginLeft="80dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>

@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter adapter = new ArrayAdapter(this,R.layout.list_item,toDo);
         ListView listView = findViewById(R.id.todo_list);
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                select.setText(toDo[i]);
+            }
+        });
 
         //Spinner
         spinner = findViewById(R.id.spinner);

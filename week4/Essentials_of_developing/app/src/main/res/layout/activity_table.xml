@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            app:title="Essentials of Developing Android 5.0"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TableLayout
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="Enter your Name"
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:hint="Enter your phone Number"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 x Cheese"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Square"
+                android:checked="false"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Round"
+                android:checked="false"/>
+
+        </RadioGroup>
+        <TableLayout>
+            <TableRow>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pepperoni"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pepperoni"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pepperoni"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:id="@+id/orderTitle"
+            android:text="Your ordering"/>
+
+        <EditText
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDEDED"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:maxLines="20"
+            android:minLines="10"
+            app:layout_constraintTop_toBottomOf="@id/orderTitle"
+            tools:layout_editor_absoluteX="16dp" />
+        <TableRow>
+            <Button
+                android:text="Exit" />
+            <Button
+                android:text="SMS-PLACE YOU ORDER"
+                android:layout_marginLeft="80dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</TableLayout>

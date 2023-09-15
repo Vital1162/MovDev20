@@ -7,5 +7,4 @@
     android:textAppearance="?android:attr/textAppearanceLarge"
     android:id="@+id/selection">
 
-
 </TextView>
