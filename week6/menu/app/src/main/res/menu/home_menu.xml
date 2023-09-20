@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_menu"
+        android:title="Option Menu"/>
+    <item android:id="@+id/context_menu"
+        android:title="Context Menu"/>
+    <item android:id="@+id/popup_menu"
+        android:title="Popup Menu"/>
+</menu>
