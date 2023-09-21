@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca432cc8-b17d-472b-ac4c-7a5c09554ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/java/com/example/donation_fix/Constraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/java/com/example/donation_fix/Linear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/java/com/example/donation_fix/Relative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/java/com/example/donation_fix/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/res/layout/activity_constraint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/res/layout/activity_linear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/res/layout/activity_relative.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Donation_fix/app/src/main/res/layout/activity_table.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/androidTest/java/com/example/essential/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/java/com/example/essential/Constraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/java/com/example/essential/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/java/com/example/essential/Relative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/java/com/example/essential/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/layout/activity_constraint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/layout/activity_relative.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/layout/activity_table.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/menu/home_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/app/src/test/java/com/example/essential/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Essential/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Essentials_of_developing_fix/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Essentials_of_developing_fix/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2VgtOV1VhRIsgI97XIHJwpI2rMt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/Homework/week4/Donation_with_4_different_layout"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca432cc8-b17d-472b-ac4c-7a5c09554ac8" name="Changes" comment="" />
+      <created>1695269518293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695269518293</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

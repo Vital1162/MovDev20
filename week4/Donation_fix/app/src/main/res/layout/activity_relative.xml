@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Donation"
+        app:titleTextColor="#FFFFFF">
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <TextView
+            android:id="@+id/donateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="Welcome Homer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/donateSubtitle"
+            android:id="@+id/donateSubtitle"
+            android:layout_below="@+id/donateTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="27dp"
+            android:layout_alignEnd="@+id/donateTitle" />
+
+        <Button
+            android:id="@+id/donateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="53dp"
+            android:onClick="donateButtonPressed"
+            android:text="Donate"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/donateSubtitle"
+            android:id="@+id/paymentMethod"
+            android:layout_toStartOf="@+id/amountPicker">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/paypal"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/direct"/>
+
+        </RadioGroup>
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountPicker"
+            android:layout_alignTop="@+id/paymentMethod"
+            android:layout_alignEnd="@+id/donateSubtitle"
+            />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="false"
+            android:layout_marginBottom="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/paymentAmount"
+            android:id="@+id/processBar"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/amount"
+            android:id="@+id/amount"
+            android:layout_above="@+id/donateButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="26dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/amount"
+            android:layout_toEndOf="@+id/donateButton"
+            android:id="@+id/paymentAmount"
+            android:layout_alignEnd="@+id/processBar"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/total"
+            android:layout_alignBottom="@+id/donateButton"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/totalSoFar"
+            android:layout_alignBottom="@+id/donateButton"
+            android:layout_alignEnd="@+id/paymentMethod"
+            android:id="@+id/totalSoFar"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+
+            android:src="@android:drawable/ic_dialog_email"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/totalSoFar"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
