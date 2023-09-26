@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
+    <item android:title="shared Preferences"
+        android:id="@+id/sharedPreferences"/>
+    <item android:title="internal Storage"
+        android:id="@+id/internalStorage"/>
+    <item android:title="External Storage"
+        android:id="@+id/externalStorage"/>
+
+
+</menu>

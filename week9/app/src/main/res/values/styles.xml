@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#fff</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionOverflowButtonStyle">@style/MyOverflowStyle</item>
+    </style>
+
+
+</resources>
