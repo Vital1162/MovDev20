@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number here..."
+            android:layout_margin="16dp"/>
+        <EditText
+            android:id="@+id/SMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text here..."
+            android:layout_margin="16dp"/>
+        <Button
+            android:id="@+id/sendmess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Send messenger"/>
+
+        <Button
+            android:id="@+id/sendapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Send messenger in app"/>
+        <Button
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CALL"
+            android:layout_marginBottom="80dp"/>
+
+        <TextView
+
+            android:id="@+id/mymessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="message: " />
+    </LinearLayout>
+
+
+</FrameLayout>
